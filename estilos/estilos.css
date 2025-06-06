@@ -6,7 +6,7 @@
 
 body{
     font-family: cursive;
-    background-color: aliceblue;
+    background-color:  rgb(253, 228, 233);
     color: black;
     line-height: 1.0;
     margin: 0%;
@@ -117,4 +117,20 @@ justify-content: space-around;
     overflow: hidden;
 }
 
+.progress-bar{
+    width: 500px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    gap: 2rem;
+}
+
+.progress-bar-fill{
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    animation: fill 2rem linrar infinite alternate;
+    gap: 1rem;
+}
 
